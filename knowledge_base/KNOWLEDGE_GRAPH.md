@@ -7,13 +7,14 @@
 
 ## About This Knowledge Base
 
-This is the personal knowledge base of **Stella Bayles** — co-founder of CoverageBook, PR measurement expert, author, and consultant. It contains her professional writing, talks, research, book proposals, podcast transcripts, and consultancy materials.
+This is the personal knowledge base of **Stella Bayles** — independent PR measurement consultant, author, and advisor. It contains her professional writing, talks, research, book proposals, podcast transcripts, and consultancy materials.
+
+**Important:** Stella is **not** a co-founder or employee of CoverageBook. She has deep familiarity with CoverageBook as a tool and has used it extensively in her work, but she operates entirely as an independent consultant.
 
 **Key themes across this knowledge base:**
 - PR measurement, data, and reporting
 - SEO and PR integration (digital PR)
 - AI visibility and search reputation
-- CoverageBook product and positioning
 - Consultancy strategy and business development
 - Charity and non-profit communications
 
@@ -26,6 +27,7 @@ This is the personal knowledge base of **Stella Bayles** — co-founder of Cover
 | File | Description |
 |---|---|
 | [Modern_Earned_Media_Measurement_Framework.md](./Modern_Earned_Media_Measurement_Framework.md) | **Stella's core framework** — the Modern Earned Media Measurement Framework. Seven layers from Flexible Objectives through PR Drivers, Coverage Performance, Brand Visibility Across Search & AI, Audience Outcomes, Behavioural Outcomes to Organisational Impact. Includes full Mermaid diagram, application guide, measurement questions, AMEC/Onclusive synthesis, LLM behaviour context, prompt research framework and earned-first proposition. |
+| [Framework_Development_Conversation.md](./Framework_Development_Conversation.md) | **The intellectual origin of the framework** — the full working conversation in which Stella developed the connection between her SEO/Answer the Public background and LLM prompt strategy, synthesised the AMEC and Onclusive measurement materials, and arrived at the seven-layer framework and the naming of "Brand Visibility Across Search & AI". Includes the four-layer prompt model, giffgaff prompt cluster examples, the grounding/citation/mention/recommendation/referral distinction, and the earned-first proposition. |
 
 ---
 
@@ -75,7 +77,7 @@ This is the personal knowledge base of **Stella Bayles** — co-founder of Cover
 | File | Description |
 |---|---|
 | [Transcript_Lord_Nelson_Consultancy_Strategy_Discussion.md](./Transcript_Lord_Nelson_Consultancy_Strategy_Discussion.md) | Strategy discussion on consultancy model — productised services, pricing, day rates, limited company setup |
-| [Transcript_Splendid_Comms_Followup_Meeting.md](./Transcript_Splendid_Comms_Followup_Meeting.md) | Follow-up meeting with Splendid Comms — Gift Gaff account, AI visibility strategy, SEO proposition |
+| [Transcript_Splendid_Comms_Followup_Meeting.md](./Transcript_Splendid_Comms_Followup_Meeting.md) | Follow-up meeting with Splendid Comms — giffgaff account, AI visibility strategy, SEO proposition |
 
 ---
 
@@ -108,21 +110,23 @@ This is the personal knowledge base of **Stella Bayles** — co-founder of Cover
 
 | Name | Role / Context |
 |---|---|
-| Stella Bayles | Co-founder CoverageBook, author, PR measurement consultant |
+| Stella Bayles | Independent PR measurement consultant, author, and advisor |
 | David Fraser | MD & founder of Ready 10 agency |
 | Paul & Steph | Comms Clarity — independent PR measurement consultants |
 | Celia Harding | AI visibility specialist |
 | Jenny (Splendid) | Contact at Splendid Comms |
-| Jess Proudfoot | Media & Innovation lead, Splendid Comms, Gift Gaff account |
+| Jess Proudfoot | Media & Innovation lead, Splendid Comms, giffgaff account |
 
 ---
 
 ## Key Concepts & Themes (for AI reference)
 
-- **CoverageBook** — PR reporting tool, estimated coverage views, similar web data
-- **Brand Prominence** — Stella's framework for evaluating quality of coverage mentions
+- **CoverageBook** — PR reporting tool that Stella knows deeply and uses in her work; she is not its co-founder or employee
+- **Brand Prominence** — Stella's framework for evaluating quality of coverage mentions; runs as a golden thread through all seven layers of the Modern Earned Media Measurement Framework
 - **PR Measurement** — AMEC frameworks, vanity vs sanity metrics, attribution
 - **SEO in PR / Digital PR** — Google algorithm, organic search, link building via PR
-- **AI Visibility** — How brands appear in LLM outputs and AI search results
+- **AI Visibility** — How brands appear in LLM outputs and AI search results; must be measured across grounding, citation, mention, recommendation and referral as separate events
 - **Coverage Classification** — Categorising coverage types for better reporting
 - **Consultancy model** — Productised services, retainers, day rates, pricing strategy
+- **Answer the Public / Audience Research** — Stella's background in audience search behaviour research, now applied to LLM prompt strategy
+- **Earned-first strategy** — Strengthening the trusted public information environment around a brand so it is authoritative, retrievable and accurately reflected across media, search and AI-assisted discovery
