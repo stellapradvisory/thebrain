@@ -21,6 +21,14 @@ This is the personal knowledge base of **Stella Bayles** — co-founder of Cover
 
 ## Document Index
 
+### SIGNATURE FRAMEWORK — Start Here
+
+| File | Description |
+|---|---|
+| [Modern_Earned_Media_Measurement_Framework.md](./Modern_Earned_Media_Measurement_Framework.md) | **Stella's core framework** — the Modern Earned Media Measurement Framework. Seven layers from Flexible Objectives through PR Drivers, Coverage Performance, Brand Visibility Across Search & AI, Audience Outcomes, Behavioural Outcomes to Organisational Impact. Includes full Mermaid diagram, application guide, measurement questions, AMEC/Onclusive synthesis, LLM behaviour context, prompt research framework and earned-first proposition. |
+
+---
+
 ### Books & Major Writing
 
 | File | Description |
