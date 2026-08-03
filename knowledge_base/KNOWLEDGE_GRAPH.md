@@ -106,6 +106,14 @@ This is the personal knowledge base of **Stella Bayles** — independent PR meas
 
 ---
 
+### Contracts & Templates
+
+| File | Description |
+|---|---|
+| [Stella_PR_Advisory_Consultancy_Agreement_Template.md](./Stella_PR_Advisory_Consultancy_Agreement_Template.md) | **Master consultancy agreement template** for Stella PR Advisory Limited. Based on Growth Punk / Positive Human structure. Covers services, IP protection (Stella retains pre-existing frameworks including the Modern Earned Media Measurement Framework), confidentiality, payment terms (14 days), termination (14 days notice), liability cap, and independent contractor status. Registered office: Ground Floor, 90 Long Acre, Covent Garden, London, WC2E 9RZ. Company number to be inserted once confirmed. First used: Splendid Communications, August 2026. |
+
+---
+
 ## Key People Mentioned Across This Knowledge Base
 
 | Name | Role / Context |
