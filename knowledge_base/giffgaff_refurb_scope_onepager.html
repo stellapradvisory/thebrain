@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>giffgaff Refurb Campaign — Advisory Support Scope</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  .page {
+    background: #ffffff;
+    width: 794px;
+    padding: 44px 56px;
+    position: relative;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #1a1a1a;
+  }
+
+  .brand img {
+    height: 70px;
+    width: auto;
+  }
+
+  .header-meta {
+    text-align: right;
+    font-size: 11px;
+    color: #888;
+    line-height: 1.8;
+  }
+
+  .header-meta strong {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+
+  /* Title block */
+  .title-block {
+    margin-bottom: 20px;
+  }
+
+  .label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.55;
+    max-width: 520px;
+  }
+
+  /* Stages */
+  .stages {
+    margin-bottom: 20px;
+  }
+
+  .stages-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 16px;
+  }
+
+  .stage {
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    gap: 0 20px;
+    align-items: start;
+    padding: 12px 0;
+    border-bottom: 1px solid #ebebeb;
+  }
+
+  .stage:last-child {
+    border-bottom: none;
+  }
+
+  .stage-number {
+    width: 28px;
+    height: 28px;
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .stage-number.flexible {
+    background: #e8e8e8;
+    color: #888;
+  }
+
+  .stage-content {}
+
+  .stage-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+  }
+
+  .stage-sections {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 6px;
+  }
+
+  .stage-desc {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  .stage-meta {
+    text-align: right;
+    flex-shrink: 0;
+    min-width: 110px;
+  }
+
+  .stage-days {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+  }
+
+  .stage-cost {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1;
+  }
+
+  .stage-cost.flexible-cost {
+    font-size: 13px;
+    color: #888;
+    font-weight: 500;
+  }
+
+  /* Totals */
+  .totals {
+    background: #f5f4f0;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .total-item {}
+
+  .total-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 4px;
+  }
+
+  .total-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .total-note {
+    font-size: 11px;
+    color: #888;
+    margin-top: 3px;
+  }
+
+  .total-divider {
+    width: 1px;
+    height: 48px;
+    background: #ddd;
+  }
+
+  /* Note */
+  .note {
+    font-size: 11px;
+    color: #888;
+    line-height: 1.5;
+    border-left: 3px solid #1a1a1a;
+    padding-left: 14px;
+    margin-bottom: 16px;
+  }
+
+  /* Footer */
+  .footer {
+    border-top: 1px solid #ebebeb;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-contact {
+    font-size: 11px;
+    color: #888;
+    line-height: 1.9;
+  }
+
+  .footer-contact a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .footer-brand {
+    text-align: right;
+  }
+
+  .footer-brand img {
+    height: 50px;
+    width: auto;
+    opacity: 0.8;
+  }
+
+  .footer-brand-tag {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-top: 4px;
+    text-align: right;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="brand">
+      <img src="stella_logo.png" alt="Stella PR Advisory">
+    </div>
+    <div class="header-meta">
+      <strong>Prepared for</strong><br>
+      Splendid Communications<br>
+      <strong>Re:</strong> giffgaff Q4 Refurb Campaign<br>
+      August 2026
+    </div>
+  </div>
+
+  <!-- Title -->
+  <div class="title-block">
+    <div class="label">Advisory Support Scope</div>
+    <div class="title">giffgaff Refurbished<br>Q4 Campaign</div>
+    <div class="subtitle">Integrating an earned-first AI search and measurement strategy to prove the commercial value of PR, align with giffgaff's internal search team, and build a live case study for Splendid's evolving proposition.</div>
+  </div>
+
+  <!-- Stages -->
+  <div class="stages">
+    <div class="stages-label">Scope of Work</div>
+
+    <div class="stage">
+      <div class="stage-number">1</div>
+      <div class="stage-content">
+        <div class="stage-title">Insight &amp; Audit</div>
+        <div class="stage-sections">Language &amp; Relationships · Brief &amp; Strategy · Insight, Tracking &amp; Creative Ideas</div>
+        <div class="stage-desc">Working with Jess to shape and win the brief — including client calls, Q&amp;A sessions, and proposal input. Search behaviour research, baseline AI visibility audit for refurb across ChatGPT, Perplexity &amp; Google AI, prompt cluster mapping, and source gap analysis — feeding directly into the Splendid strategy and creative team to inform the campaign response.</div>
+      </div>
+      <div class="stage-meta">
+        <div class="stage-days">3–4 days</div>
+        <div class="stage-cost">£3–4k</div>
+      </div>
+    </div>
+
+    <div class="stage">
+      <div class="stage-number">2</div>
+      <div class="stage-content">
+        <div class="stage-title">Strategy &amp; Framework</div>
+        <div class="stage-sections">Brief &amp; Strategy · Measurement Framework Creation</div>
+        <div class="stage-desc">Earned media targeting plan and bespoke measurement framework, developed in collaboration with the Splendid team — providing the strategic layer that connects campaign activity to AI visibility uplift and commercial outcomes.</div>
+      </div>
+      <div class="stage-meta">
+        <div class="stage-days">3 days</div>
+        <div class="stage-cost">£3k</div>
+      </div>
+    </div>
+
+    <div class="stage">
+      <div class="stage-number flexible">3</div>
+      <div class="stage-content">
+        <div class="stage-title">Ongoing Embed</div>
+        <div class="stage-sections">Team Mentoring · Embed &amp; Ongoing</div>
+        <div class="stage-desc">Supporting the team through delivery — tracking set-up, tech embedding, dashboard integration, troubleshooting, and digging into what the metrics are telling us. Advising on optimisation off the back of live data, and mentoring the team so they can confidently own the insight, lead client performance conversations, and drive towards agreed outcomes. The team leads; I help them become experts in it.</div>
+      </div>
+      <div class="stage-meta">
+        <div class="stage-days" style="color:#888;">3 days suggested</div>
+        <div class="stage-cost flexible-cost">£3k indicative</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Totals -->
+  <div class="totals">
+    <div class="total-item">
+      <div class="total-label">Stages 1 &amp; 2</div>
+      <div class="total-value">£6,000 – £7,000</div>
+      <div class="total-note">Immediate planning budget approval</div>
+    </div>
+    <div class="total-divider"></div>
+    <div class="total-item">
+      <div class="total-label">With Stage 3 (suggested)</div>
+      <div class="total-value">£9,000 – £10,000</div>
+      <div class="total-note">Full campaign support</div>
+    </div>
+    <div class="total-divider"></div>
+    <div class="total-item">
+      <div class="total-label">Day Rate</div>
+      <div class="total-value">£1,000</div>
+      <div class="total-note">Per day</div>
+    </div>
+  </div>
+
+  <!-- Note -->
+  <div class="note">
+    Stage 3 is flexible — based on what you feel the team needs once we're up and running.
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-contact">
+      stella@stellapradvisory.com<br>
+      <a href="https://stellapradvisory.com">stellapradvisory.com</a><br>
+      linkedin.com/in/stellabayles
+    </div>
+      <div class="footer-brand">
+      <img src="stella_logo.png" alt="Stella PR Advisory">
+      <div class="footer-brand-tag">© 2026 Stella Bayles</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

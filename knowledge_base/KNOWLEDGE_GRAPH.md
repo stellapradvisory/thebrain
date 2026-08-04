@@ -86,6 +86,16 @@ This is the personal knowledge base of **Stella Bayles** — independent PR meas
 | File | Description |
 |---|---|
 | [Splendid_Comms_Stella_PR_Advisory_Proposal.md](./Splendid_Comms_Stella_PR_Advisory_Proposal.md) | Stella's PR advisory proposal for Splendid Comms |
+| [giffgaff-search-ai-visibility-briefing.md](./giffgaff-search-ai-visibility-briefing.md) | GEO citation data analysis — where giffgaff wins and loses in AI search |
+| [giffgaff-hellen-benavides-profile.md](./giffgaff-hellen-benavides-profile.md) | Profile of Hellen Benavides (AI Search Lead at giffgaff), team size, agency relationships, current priorities |
+| [giffgaff-email-intelligence.md](./giffgaff-email-intelligence.md) | Context from the Jess/Tara email chain — member engagement priority, "better Monzo/Google" ambition, Reddit methodology, Fair-play Summer |
+| [studio-b-proposal-summary.md](./studio-b-proposal-summary.md) | Clean strategic summary of the Studio B proposal to giffgaff |
+| [giffgaff-marketing-objectives-audience.md](./giffgaff-marketing-objectives-audience.md) | giffgaff marketing objectives and audience priorities (20–30s focus) |
+| [Jess_Proudfoot_Call_Prep.md](./Jess_Proudfoot_Call_Prep.md) | Call prep document for Stella's meeting with Jess Proudfoot |
+| [Jess_Proudfoot_Post_Call_Debrief.md](./Jess_Proudfoot_Post_Call_Debrief.md) | Post-call debrief and action plan based on the transcript with Jess Proudfoot |
+| [giffgaff-refurb-qa-questions-thursday.md](./giffgaff-refurb-qa-questions-thursday.md) | Final Q&A questions for the giffgaff refurb brief client session |
+| [giffgaff_refurb_scope_onepager.html](./giffgaff_refurb_scope_onepager.html) | Scope of work one-pager for the giffgaff refurb engagement (HTML source) |
+| [giffgaff_refurb_scope_onepager.pdf](./giffgaff_refurb_scope_onepager.pdf) | Scope of work one-pager for the giffgaff refurb engagement (PDF) |
 
 ---
 
