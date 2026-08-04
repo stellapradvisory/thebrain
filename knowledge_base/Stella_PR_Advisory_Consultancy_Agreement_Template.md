@@ -10,7 +10,7 @@
 **DATE:** [Insert Date]
 
 **PARTIES**
-1. **Stella PR Advisory Limited**, a company incorporated in England and Wales (registration number [Insert when confirmed]) having its registered office at Ground Floor, 90 Long Acre, Covent Garden, London, WC2E 9RZ ("the Consultant"); and
+1. **Stella PR Advisory Limited**, a company incorporated in England and Wales (registration number [Insert when confirmed]) having its registered office at Suite E, Ground Floor, Profile West, 950 Great West Road, Brentford, United Kingdom, TW8 9ES ("the Consultant"); and
 2. **[Client Company Name]**, a company incorporated in [England and Wales / Scotland / other jurisdiction] (registration number [Insert]) having its registered office at [Insert Client Registered Address] ("the Client").
 
 ---
