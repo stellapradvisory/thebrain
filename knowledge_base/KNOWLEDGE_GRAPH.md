@@ -21,6 +21,14 @@ This is the personal knowledge base of **Stella Bayles** — co-founder of Cover
 
 ## Document Index
 
+### MASTER REFERENCE FILES — Read These First
+
+| File | Description |
+|---|---|
+| [STELLA_TONE_OF_VOICE_AND_WRITING_STYLE.md](./STELLA_TONE_OF_VOICE_AND_WRITING_STYLE.md) | **TONE OF VOICE MASTER GUIDE** — Analysed from Stella's ebook "PR's Digital Resolution". Covers personality, sentence structure, language, word choice, structural patterns, what to avoid, signature phrases, and a voice checklist. Apply to ALL copy produced for Stella or Stella PR Advisory. |
+
+---
+
 ### SIGNATURE FRAMEWORK — Start Here
 
 | File | Description |
@@ -84,8 +92,6 @@ This is the personal knowledge base of **Stella Bayles** — co-founder of Cover
 | File | Description |
 |---|---|
 | [Splendid_Comms_Stella_PR_Advisory_Proposal.md](./Splendid_Comms_Stella_PR_Advisory_Proposal.md) | Stella's PR advisory proposal for Splendid Comms |
-| [giffgaff_kantar_brand_health_notes.md](./giffgaff_kantar_brand_health_notes.md) | Working notes from the giffgaff Kantar Brand Health Debrief Q1 2026 |
-| [giffgaff-kantar-reputation-opportunities.md](./giffgaff-kantar-reputation-opportunities.md) | Strategic readout translating Kantar findings into search and online reputation opportunities |
 
 ---
 
